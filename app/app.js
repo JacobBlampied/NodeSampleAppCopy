@@ -26,7 +26,7 @@ if(process.env.DB_HOST) {
   });
 }
 
-app.get('/fibonacc/:n' ,
+app.get('/fibonacci/:n' ,function(req,res){ from above
   // removed i form fibonacci
   // removed function(req,res){ from above
 
