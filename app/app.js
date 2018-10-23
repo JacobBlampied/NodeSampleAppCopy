@@ -26,8 +26,9 @@ if(process.env.DB_HOST) {
   });
 }
 
-app.get('/fibonacc/:n' , function(req,res){
+app.get('/fibonacc/:n' ,
   // removed i form fibonacci
+  // removed function(req,res){ from above
 
   // high cpu usage function
   var value = AdvancedMaths.fibonacci(req.params.n);
